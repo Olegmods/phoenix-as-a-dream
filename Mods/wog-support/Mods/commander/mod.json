@@ -1,0 +1,27 @@
+{
+	"name" : "Phoenix A.A.D. - Wog commanders support",
+	"description" : "Add wog commanders support.",
+	"author": "kdmcser",
+	"version" : "1.0.0",
+	"contact": "",
+	"modType" : "Expansion",
+	"depends" : ["wake-of-gods.commanders"],
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},	
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},
+
+	"chinese" : {
+		"name" : "凤凰如梦——wog指挥官支持",
+		"description" : "添加wog指挥官支持。"
+	},
+    
+	"heroClasses" :
+	[
+		"config/paadwog/classes/phoenix_class.json"
+	]
+}

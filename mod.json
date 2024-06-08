@@ -1,0 +1,60 @@
+{
+	"name" : "Phoenix as a dream",
+	"description" : "Add a new hero Phoenix A.A.D. for towner.",
+	"author": "kdmcser",
+	"version" : "1.0.0",
+	"contact": "",
+	"modType" : "Town",
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},	
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},
+
+	"chinese" : {
+		"name" : "凤凰如梦",
+		"description" : "添加新塔楼英雄凤凰如梦。",
+		"translations" : [
+			"translation/phoenix-as-a-dream/chinese.json"
+		]
+	},
+	
+	"artifacts" :
+	[
+		"config/phoenix-as-a-dream/artifacts/phoenix_staff.json",
+		"config/phoenix-as-a-dream/artifacts/phoenix_spell_book.json",
+		"config/phoenix-as-a-dream/artifacts/phoenix_badge.json",
+		"config/phoenix-as-a-dream/artifacts/vcmi_enhancement_shield.json",
+		"config/phoenix-as-a-dream/artifacts/reprogramming_chip.json"
+	],
+	
+	"creatures" :
+	[
+		"config/phoenix-as-a-dream/creatures/hot_flame_element.json",
+		"config/phoenix-as-a-dream/creatures/golden_sun_element.json"
+	],
+	
+	"heroClasses" :
+	[
+		"config/phoenix-as-a-dream/classes/phoenix_class.json"
+	],
+    
+	"heroes" :
+	[
+		"config/phoenix-as-a-dream/heroes/phoenix_as_a_dream.json"
+	],
+	
+	"skills" :
+	[
+		"config/phoenix-as-a-dream/skills/phoenixs_bless.json"
+	],
+	
+	"spells" :
+	[
+		"config/phoenix-as-a-dream/spells/summon_phoenix.json",
+		"config/phoenix-as-a-dream/spells/lesser_summon_phoenix.json"
+	]
+}

@@ -1,0 +1,112 @@
+{
+	"paadPhoenixsSpellBook":
+     {
+		"type" : [ "HERO" ],
+		"slot" : "LEFT_HAND",
+		"class" : "RELIC",
+		"value" : 24000,
+		"bonuses" : 
+		[
+			{
+				"subtype" : "spell.chainLightning",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.meteorShower",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.resurrection",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.townPortal",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.prayer",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.armageddon",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.berserk",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.dimensionDoor",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.fly",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.prayer",
+				"type" : "SPELL",
+				"val" : 0
+			},
+			{
+				"subtype" : "spell.paadLesserSummonPhoenix",
+				"type" : "SPELL",
+				"val" : 0,
+				"limiters" : [
+					"noneOf",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			},
+			{
+				"subtype" : "spell.paadSummonPhoenix",
+				"type" : "SPELL",
+				"val" : 0,
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			}
+			
+		],
+		"graphics" : {
+			"large" : "phoenix-as-a-dream/artifacts/phoenixSpellBookLarge",
+			"image" : "phoenix-as-a-dream/artifacts/phoenixSpellBookMedium",
+			"map" : "phoenix-as-a-dream/map/artifacts/phoenixSpellBook.def"
+		},
+		"text" : {
+			"name" : "Phoenix's Spell Book",
+			"description" : "{Phoenix's Spell Book}\r\n\r\nThe Phoenix's Spell Book records such powerful magics which Phoenix As A Dream likes: Chain Lightning, Meteor Shower, Resurrection, Town Portal, Prayer, Armageddon, Berserk, Dimension Door, Fly, implosion and (Lesser) Summon Phoenix.",
+			"event" : "You arrive at the bank of a large river and sense magical fluctuations at its center. You channel a burst of magic towards that spot, and immediately, the earth shakes and a large turtle with a strange and orderly pattern on its back slowly surfaces from the water. You notice that the pattern on the turtle's back consists of the numbers 1 to 9 arranged such that the sum of the numbers in each row, column, and diagonal is 15. As you intently study the pattern on its shell, the turtle, seemingly annoyed, turns around and hurls an object at you. Caught off guard, it hits your head, forming a large bump. Seeing this, the turtle, apparently satisfied, dives back into the water and disappears. Rubbing your head, you discover that the object that hit you is a spell book. This spell book, having been submerged in water for years, shows no signs of water damage and is clearly no ordinary item. No longer dismayed, you decide to keep the spell book."
+		}
+	}
+}
+
+

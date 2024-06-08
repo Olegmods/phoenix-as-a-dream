@@ -1,0 +1,101 @@
+{
+	"paadPhoenixsBless" : {
+		"name" : "Phoenix's Bless",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"basic" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/baseSmall",
+				"medium" : "phoenix-as-a-dream/skills/baseMedium",
+				"large" : "phoenix-as-a-dream/skills/baseLarge"
+			},
+			"description" : "{Basic Phoenix's Bless}\n\nBasic Phoenix's Bless gives 1 attack, 1 defence to all armies.",
+			"effects" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val": 1
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val": 1
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/advSmall",
+				"medium" : "phoenix-as-a-dream/skills/advMedium",
+				"large" : "phoenix-as-a-dream/skills/advLarge"
+			},
+			"description" : "{Advanced Phoenix's Bless}\n\nAdvanced Phoenix's Bless gives 1 attack, 1 defence, 1 morale and 1 luck to all armies.",
+			"effects" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val": 1
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val": 1
+				},
+				"morale": {
+					"type" : "MORALE",
+					"val": 1	
+				},
+				"luck": {
+					"type" : "LUCK",
+					"val": 1	
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "phoenix-as-a-dream/skills/expSmall",
+				"medium" : "phoenix-as-a-dream/skills/expMedium",
+				"large" : "phoenix-as-a-dream/skills/expLarge"
+			},
+			"description" : "{Expert Phoenix's Bless}\n\nExpert Phoenix's Bless gives 1 attack, 1 defence 1 morale, 1 luck, 1 health, 1 damage and 1 speed to all armies.",
+			"effects" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"val": 1
+				},
+				"defence" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"val": 1
+				},
+				"morale": {
+					"type" : "MORALE",
+					"val": 1	
+				},
+				"luck": {
+					"type" : "LUCK",
+					"val": 1	
+				},
+				"health": {
+					"type" : "STACK_HEALTH",
+					"val": 1,
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"damage": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageBoth",
+					"val": 1,
+					"valueType" : "ADDITIVE_VALUE"
+				},
+				"speed": {
+					"type" : "STACKS_SPEED",
+					"val": 1,
+					"valueType" : "ADDITIVE_VALUE"
+				},
+			}
+		}
+	}
+}

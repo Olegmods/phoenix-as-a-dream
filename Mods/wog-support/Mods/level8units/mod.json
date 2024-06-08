@@ -1,0 +1,43 @@
+{
+	"name" : "Phoenix A.A.D. - Wog level8 units support",
+	"description" : "Add wog level 8 units support.",
+	"author": "kdmcser",
+	"version" : "1.0.0",
+	"contact": "",
+	"modType" : "Expansion",
+	"depends" : ["wake-of-gods.level8units", "phoenix-as-a-dream"],
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},	
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},
+
+	"chinese" : {
+		"name" : "凤凰如梦——wog8级生物支持",
+		"description" : "添加wog8级生物支持。",
+		"translations" : [
+			"translation/paadwog/chinese.json"
+		]
+	},
+	
+    "artifacts" :
+	[
+		"config/paadwog/artifacts/phoenix_staff.json",
+		"config/paadwog/artifacts/vcmi_enhancement_shield.json",
+		"config/paadwog/artifacts/reprogramming_chip.json"
+	],
+	
+	"heroes" :
+	[
+		"config/paadwog/heroes/phoenix_as_a_dream.json"
+	],
+	
+	"spells":
+	[
+		"config/paadwog/spells/summon_phoenix.json",
+		"config/paadwog/spells/lesser_summon_phoenix.json"
+	]
+}

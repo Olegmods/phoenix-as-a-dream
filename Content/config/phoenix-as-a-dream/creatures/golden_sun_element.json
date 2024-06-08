@@ -1,0 +1,193 @@
+{
+	"paadGoldenSunElement":
+	{
+		"name" :
+		{
+			"plural" : "Golden Sun Elements",
+			"singular" : "Golden Sun Element"
+		},
+		"description": "The Golden Sun Element is a creature formed from the ultimate condensation of flames, imbued with a trace of solar power. It is said that under the right conditions, the Golden Sun Element can transform into a bird, just as the sun becomes the mythical golden crow.",
+		"hasDoubleWeek": false,
+		"doubleWide" : false,
+     	"faction" : "conflux",
+		"advMapAmount" :
+		{
+			 "min" : 8,
+			 "max" : 12
+		},
+		"level" : 6,
+		"attack" : 16,
+		"defense" : 15,
+		"damage" :
+		{
+			 "min" : 15,
+			 "max" : 20
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+		"speed" : 12,
+		"fightValue" : 906,
+		"aiValue" : 1015,
+		"cost" :
+		{
+			"gold" : 900
+		},
+		"graphics" :
+		{
+			"animation" : "phoenix-as-a-dream/battle/creatures/golden_sun_element.def",
+			"map" : "phoenix-as-a-dream/map/creatures/golden_sun_element_map.def",
+			"iconSmall" : "phoenix-as-a-dream/iconsSmall/creatures/golden_sun_element_small.bmp",
+			"iconLarge" : "phoenix-as-a-dream/iconsBig/creatures/golden_sun_element_large.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 0.8,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" :
+		{
+			"attack": "ENERATTK.wav",
+			"defend": "ENERDFND.wav",
+			"killed": "ENERKILL.wav",
+			"move": "ENERMOVE.wav",
+			"wince": "ENERWNCE.wav"
+        },
+		"abilities" :
+		{ 
+			"nonLiving" : 
+			{
+				"type" : "NON_LIVING"
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			},
+			"immuneToFire" : 
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
+			},
+			"spellPower" : 
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 125
+			},
+			"spellPoints" : 
+			{
+				"type" : "CASTS",
+				"val" : 10
+			},
+			"spellcaster":
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.fireball",
+				"val" : 3
+			},
+			"blockRetaliation":
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"oppositeWater" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.waterElemental",
+				"val" : 100
+			},
+			"oppositeIce" :
+			{
+				"type" : "HATE",
+				"subtype" : "creature.iceElemental",
+				"val" : 100
+			}		
+		},
+		"stackExperience" : 
+		[
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
+			},	
+			{
+				"bonus" :
+				{
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.fireShield"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.protectWater"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
+			},
+			{	
+				"bonus" :
+				{
+					"type" : "RECEPTIVE"
+				},
+				"values" : [ false, false, false, false, false, true, true, true, true, true ]
+			},
+			{	
+				"bonus" :
+				{
+					"type" : "CASTS"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{	
+				"bonus" :
+				{
+					"type" : "RETURN_AFTER_STRIKE"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			}			
+		]
+	}
+}

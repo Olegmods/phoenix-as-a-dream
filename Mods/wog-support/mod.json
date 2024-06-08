@@ -1,0 +1,22 @@
+{
+	"name" : "Phoenix A.A.D. - Wog support",
+	"description" : "Add wog units support.",
+	"author": "kdmcser",
+	"version" : "1.0.0",
+	"contact": "",
+	"modType" : "Expansion",
+	"depends" : ["wake-of-gods"],
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},	
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},
+
+	"chinese" : {
+		"name" : "凤凰如梦——wog支持",
+		"description" : "添加wog支持。"
+	}
+}

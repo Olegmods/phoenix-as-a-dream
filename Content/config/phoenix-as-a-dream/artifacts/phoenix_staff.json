@@ -1,0 +1,120 @@
+{
+	"paadPhoenixsStaff":
+     {
+		"type" : [ "HERO" ],
+		"slot" : "RIGHT_HAND",
+		"class" : "RELIC",
+		"value" : 20000,
+		"bonuses" : 
+		[
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val": 3
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val": 3
+			},
+			{
+				"type" : "MORALE",
+				"val": 3	
+			},
+			{
+				"type" : "LUCK",
+				"val": 3	
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val": 15,
+				"valueType" : "PERCENT_TO_BASE"
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val": 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"type": "CREATURE_DAMAGE",
+				"subtype": "creatureDamageBoth",
+				"val": 15,
+				"valueType" : "PERCENT_TO_BASE"
+			},
+			{
+				"type": "CREATURE_DAMAGE",
+				"subtype": "creatureDamageBoth",
+				"val": 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			{
+				"type" : "STACKS_SPEED",
+				"val": 3
+			},
+			{
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.firebird",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"PRIMARY_SKILL",
+							"primarySkill.attack",
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type" : "IMPROVED_NECROMANCY",
+				"subtype" : "creature.phoenix",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [
+							"MORALE",
+							null,
+							{
+								"type" : "SECONDARY_SKILL",
+								"id" : "secondarySkill.paadPhoenixsBless"
+							}
+						]
+					}
+				]
+			}
+		],
+		"graphics" : {
+			"large" : "phoenix-as-a-dream/artifacts/phoenixStaffLarge",
+			"image" : "phoenix-as-a-dream/artifacts/phoenixStaffMedium",
+			"map" : "phoenix-as-a-dream/map/artifacts/phoenixStaff.def"
+		},
+		"text" : {
+			"name" : "Phoenix's Staff",
+			"description" : "{Phoenix's Staff}\r\n\r\n Gives 3 attack, 3 defence, 3 morale and 3 luck to hero, increases 15% health, 15% damage, 1 extra health, 1 extra damage and 3 speed to all armies. If hero has learned Phoenix's Bless, Phoenix's Staff can summon a phoenix creature depending on the level of Phoenix's Bless skill after win a battle.",
+			"event" : "You see a small bird carrying a piece of wood flying towards the East Sea, and you detect powerful magical fluctuations emanating from the wood. Suddenly, an ancient legend comes to mind; it would be a great pity if this piece of wood were tossed into the East Sea. With this thought, you break off a branch from a nearby tree and call out loudly to the bird. The bird notices you, and with a strong throw, you hurl the branch towards it. Instantly understanding your intent, the bird tosses the piece of wood to you and grabs the thrown branch, then continues flying towards the East Sea. You pick up the piece of wood, which turns out to be a powerful magic staff."
+		}
+	}
+}
+
+
