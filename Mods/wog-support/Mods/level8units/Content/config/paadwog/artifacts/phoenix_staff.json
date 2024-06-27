@@ -50,7 +50,7 @@
 			{
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
 				"val" : 0,
-				"valueType" : "BASE_NUMBER",
+				"valueType" : "INDEPENDENT_MIN",
 				"limiters" : [
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
