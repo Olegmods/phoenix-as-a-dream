@@ -63,6 +63,11 @@
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 10
 			},
+			"canFly" : 
+			{	
+			    "type" : "FLYING",
+				"subtype": "movementTeleporting"
+			},
 			"nonLiving" : 
 			{
 				"type" : "NON_LIVING"
