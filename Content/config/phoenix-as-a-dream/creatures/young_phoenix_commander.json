@@ -58,11 +58,32 @@
         },
 		"abilities" :
 		{ 
-			"magicResistance" :
+			"avoidMagicResistance" :
 			{
 				"type" : "MAGIC_RESISTANCE",
-				"val" : 10
+				"val" : 0,
+				"valueType": "INDEPENDENT_MIN"
 			},
+			"suicide" :
+			{
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype": "armageddon",
+				"val" : 100000
+			},	
+			"reduceSpellDamage" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"updater" : "TIMES_STACK_LEVEL",
+				"val" : 17
+			},	
+			"reduceSpellDamageMax" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 100
+			},				
 			"canFly" : 
 			{	
 			    "type" : "FLYING",
@@ -84,13 +105,14 @@
 			{
 				"type" : "ENCHANTER",
 				"subtype": "armageddon",
-				"val" : 3,
+				"val" : 1,
 				"addInfo" : 1
 			},
 			"armageddonPower":
 			{
 				"type" : "CREATURE_SPELL_POWER",
-				"val": -2800
+				"val": -3000,
+				"valueType": "ADDITIVE_VALUE"
 			},
 			"armageddonPowerMin":
 			{

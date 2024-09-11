@@ -64,7 +64,8 @@
 	"skills" :
 	[
 		"config/phoenix-as-a-dream/skills/phoenixs_bless.json",
-		"config/phoenix-as-a-dream/skills/fire_resist.json"
+		"config/phoenix-as-a-dream/skills/fire_resist.json",
+		"config/phoenix-as-a-dream/skills/four_schools.json"
 	],
 	
 	"spells" :

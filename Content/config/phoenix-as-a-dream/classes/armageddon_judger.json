@@ -61,10 +61,10 @@
 			"eagleEye"     : 1,
 			"necromancy"   : 0,
 			"estates"      : 2,
-			"fireMagic"    : 7,
-			"airMagic"     : 9,
-			"waterMagic"   : 6,
-			"earthMagic"   : 8,
+			"fireMagic"    : 0,
+			"airMagic"     : 0,
+			"waterMagic"   : 0,
+			"earthMagic"   : 0,
 			"scholar"      : 1,
 			"tactics"      : 3,
 			"artillery"    : 2,
@@ -74,7 +74,8 @@
 			"intelligence" : 5,
 			"sorcery"      : 6,
 			"resistance"   : 1,
-			"firstAid"     : 1
+			"firstAid"     : 1,
+			"paadFourSchools" : 30
 		},
 		"defaultTavern" : 0,
 		"tavern" :
