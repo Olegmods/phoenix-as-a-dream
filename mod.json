@@ -1,7 +1,7 @@
 {
 	"name" : "Phoenix as a dream",
 	"description" : "Add a series of new heroes.",
-	"author": "kdmcser, Liu Yan",
+	"author": "kdmcser, Maestro & xiasimanniu",
 	"version" : "1.1.1",
 	"contact": "",
 	"modType" : "Heroes",
@@ -12,8 +12,8 @@
 	"changelog" :
 	{
 		"1.0.0"   : [ "Initial release" ],
-		"1.1.0"   : [ "Add new heroes: Like Zheng and Henry Tao" ],
-		"1.1.1"   : [ "Hero balance, adding new bank Sacred Trial Ground (def is designed by Liu Yan)." ]
+		"1.1.0"   : [ "Add new heroes: Like Zheng and Henry Tao (use Maestro's def to Sleeping Dragon)" ],
+		"1.1.1"   : [ "Hero balance, adding new bank Sacred Trial Ground (def is designed by xiasimanniu)." ]
 	},
 
 	"chinese" : {
