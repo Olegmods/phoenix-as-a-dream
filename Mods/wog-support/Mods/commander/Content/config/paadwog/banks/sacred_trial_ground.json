@@ -34,7 +34,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 0, "max" : 10 },
 						"guards": [
-							{ "amount": 1, "type" : "angel" }
+							{ "amount": 3, "type" : "angel" }
 						],
 						"resources": 
 						{
@@ -49,7 +49,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 10, "max" : 20 },
 						"guards": [
-							{ "amount": 1, "type" : "greenDragon" }
+							{ "amount": 3, "type" : "greenDragon" }
 						],
 						"resources": 
 						{
@@ -64,7 +64,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 20, "max" : 30 },
 						"guards": [
-							{ "amount": 1, "type" : "giant" }
+							{ "amount": 3, "type" : "giant" }
 						],
 						"resources": 
 						{
@@ -79,7 +79,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 30, "max" : 40 },
 						"guards": [
-							{ "amount": 1, "type" : "devil" }
+							{ "amount": 3, "type" : "devil" }
 						],
 						"resources": 
 						{
@@ -94,7 +94,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 40, "max" : 50 },
 						"guards": [
-							{ "amount": 1, "type" : "boneDragon" }
+							{ "amount": 3, "type" : "boneDragon" }
 						],
 						"resources": 
 						{
@@ -109,7 +109,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 50, "max" : 60 },
 						"guards": [
-							{ "amount": 1, "type" : "redDragon" }
+							{ "amount": 3, "type" : "redDragon" }
 						],
 						"resources": 
 						{	
@@ -124,7 +124,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 60, "max" : 70 },
 						"guards": [
-							{ "amount": 1, "type" : "behemoth" }
+							{ "amount": 3, "type" : "behemoth" }
 						],
 						"resources": 
 						{	
@@ -138,7 +138,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 70, "max" : 80 },
 						"guards": [
-							{ "amount": 1, "type" : "hydra" }
+							{ "amount": 3, "type" : "hydra" }
 						],
 						"resources": 
 						{	
@@ -152,7 +152,7 @@
 						"message" : 34,
 						"appearChance":  { "min" : 80, "max" : 90 },
 						"guards": [
-							{ "amount": 1, "type" : "firebird" }
+							{ "amount": 3, "type" : "firebird" }
 						],
 						"resources": 
 						{	
@@ -166,8 +166,8 @@
 						"message" : 34,
 						"appearChance":  { "min" : 90, "max" : 100 },
 						"guards": [
-							{ "amount": 1, "type" : "paadGoldenSunElement" },
-							{ "amount": 1, "type" : "paadGoldenSunElement" }
+							{ "amount": 3, "type" : "paadGoldenSunElement" },
+							{ "amount": 3, "type" : "paadGoldenSunElement" }
 						],
 						"resources": 
 						{	
