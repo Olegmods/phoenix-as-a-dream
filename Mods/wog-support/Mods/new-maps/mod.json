@@ -4,11 +4,11 @@
 	"author": "kdmcser",
 	"version" : "1.0.0",
 	"contact": "",
-	"modType" : "Maps",
+	"modType" : "Compatibility",
 	"depends" : ["phoenix-as-a-dream.wog-support.commander"],
 	"compatibility" :
 	{
-		"min" : "1.5.0"
+		"min" : "1.6.0"
 	},	
 	"changelog" :
 	{
