@@ -5,7 +5,7 @@
 	"version" : "1.0.0",
 	"contact": "",
 	"modType" : "Compatibility",
-	"depends" : ["wake-of-gods.level8units"],
+	"depends" : ["wake-of-gods.level8units"], ["phoenix-as-a-dream"]
 	"compatibility" :
 	{
 		"min" : "1.6.0"
