@@ -5,7 +5,10 @@
 	"version" : "1.0.0",
 	"contact": "",
 	"modType" : "Compatibility",
-	"depends" : ["phoenix-as-a-dream.wog-support.commander"], ["phoenix-as-a-dream"]
+	"depends" : [
+		"phoenix-as-a-dream.wog-support.commander", 
+		"phoenix-as-a-dream"
+	],
 	"compatibility" :
 	{
 		"min" : "1.6.0"
